@@ -6,7 +6,7 @@ namespace CommandWebApi.Models
     {
         public int Id { get; set; } // nere is new branch 
 
-        [Required]
+        [Required] // 54654654 
         public string HowTo { get; set; }
         
         [Required]
