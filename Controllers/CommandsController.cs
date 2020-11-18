@@ -22,7 +22,7 @@ namespace CommandWebApi.Controllers
             _mapper = mapper;
         }
 
-        // GET api/commands
+        // GET api/commands 6565656
         [HttpGet]
         public ActionResult<IEnumerable<CommandReadDto>> GetAllCommands()
         {
